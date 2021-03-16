@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: local("OpenSans-Regular"),
+    url(./Fonts/Open_Sans/OpenSans-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: local("OpenSans-Bold"),
+    url(./Fonts/Open_Sans/OpenSans-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Light";
+  src: local("OpenSans-Light"),
+    url(./Fonts/Open_Sans/OpenSans-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: local("OpenSans-SemiBold"),
+    url(./Fonts/Open_Sans/OpenSans-SemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-ExtraBold";
+  src: local("OpenSans-ExtraBold"),
+    url(./Fonts/Open_Sans/OpenSans-ExtraBold.ttf) format("truetype");
+}
+.App {
+  text-align: center;
+}
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  font-family: "OpenSans-Regular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  background-color: #1d2126;
+  font-size: 16px;
+  
+  min-height:100vh;
+  /* display:flex; 
+  flex-direction:column;  */
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.container {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  z-index: -1;
+  height: auto;
+}
+
+/* -- LANDSCAPE ONLY  -- */
+@media (min-width: 1024px) and (max-width: 1179px) {
+}
+
+/* -- PORTRAIT ONLY -- */
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* -- Mobile ONLY -- */
+@media (max-width: 767px) {
+ 
+}

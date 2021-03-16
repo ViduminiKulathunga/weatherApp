@@ -1,0 +1,20 @@
+.top-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.logo{
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 20px;
+
+}
+.title{
+    font-family: "OpenSans-SemiBold";
+    font-size: 29px;
+    color: #fff;
+    display: inline-block;
+}

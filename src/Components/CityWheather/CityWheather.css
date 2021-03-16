@@ -1,0 +1,128 @@
+.city-child {
+  width: 80%;
+  margin: 20px auto;
+  max-width: 1200px;
+  height: 580px;
+  position: relative;
+  border-radius: 20px;
+  color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #388ee6;
+}
+.city-title {
+  position: relative;
+  widows: 100%;
+  text-align: center;
+}
+.city-top-bar {
+  position: relative;
+  height: 228px;
+  display: flex;
+  justify-content: center;
+}
+.city-bottom-bar {
+  height: 190px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #383c47;
+  color: rgba(255, 255, 255, 0.144);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.city-two-common {
+  width: 30%;
+  height: 92%;
+  margin: 2%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.city-three-common {
+  width: 31%;
+  height: 92%;
+  margin: 1%;
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  font-family: "OpenSans-SemiBold";
+  font-size: 16px;
+}
+.city-three-common p {
+  margin: 4px 0;
+}
+.city-wheather-icon {
+  width: 53px;
+  height: 43px;
+  margin: 25px auto 20px;
+}
+.city-degree-icon {
+  width: 30px;
+  height: 29px;
+  display: block;
+  margin: 0 auto 7px;
+}
+span.city-wheather-text {
+  padding-bottom: 33px;
+}
+.city-town-w {
+  border-right: 1px solid #fff;
+  padding: 2px 0;
+}
+.city-town-w {
+  border-right: 1px solid #fff;
+  padding: 2px 0;
+}
+.city-degree {
+  text-align: center;
+}
+.city-degree .city-three-common-wrapper {
+  border-left: 1px solid #4e4e4e;
+  border-right: 1px solid #4e4e4e;
+}
+.city-status {
+  position: relative;
+}
+.city-back-icon {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  cursor: pointer;
+}
+.city-title h3 {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+.city-title p {
+  margin-top: 7px;
+  margin-bottom: 37px;
+}
+.city-wheather-icon,
+.city-wheather-text {
+  display: block;
+  text-transform: capitalize;
+  font-size: 19px;
+  font-family: "OpenSans-SemiBold";
+}
+.city-status h2 {
+  font-size: 50px;
+  margin: 7px 0 31px;
+}
+
+@media (max-width: 991px) {
+  .city-status h2 {
+    font-size: 30px;
+    margin: 7px 0 31px;
+  }
+}
+.city-status p {
+  margin: 0;
+  font-family: "OpenSans-SemiBold";
+  font-size: 16px;
+}
+.city-three-common-wrapper {
+  margin: 40px 2px;
+}
